@@ -36,13 +36,7 @@ public class GameController : MonoBehaviour
         SaveGame();
     }
 
-    private void FixedUpdate()
-    {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            SaveGame();
-        }
-    }
+
 
     private void LoadGame()
     {
@@ -57,6 +51,7 @@ public class GameController : MonoBehaviour
             tank.score = data.score;
             tank.transform.position = data.tank.position;
             tank.transform.rotation = data.tank.rotation;
+
             foreach (ObjectData data in data.objects)
             {
                 Instantiate(enemy, data.position, data.rotation);
