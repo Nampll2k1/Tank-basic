@@ -13,7 +13,7 @@ public class TankController : MonoBehaviour
     public int score { get; set; }
     void Start()
     {
-        score = 0;
+        //score = 0;
     }
 
     void Update()

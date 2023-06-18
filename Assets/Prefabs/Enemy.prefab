@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8073665365091532183}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enermy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a19abbbc5f57f4d47ab504dfd5f3350c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fire: {fileID: 23199118201267996, guid: 1e62e9f621710ef4e81e43d273140486, type: 3}
+  fire: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
   boom: {fileID: 8300000, guid: 0a4e23c563e51774dac5384d0461db0f, type: 3}
 --- !u!50 &8073665365091532182
 Rigidbody2D:
